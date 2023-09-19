@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,12 +8,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:150px;
+    margin-top:10em;
+    font-family: 'Poppins', sans-serif;
+
 }
 .box{
     /* border: solid black 1px; */
-    height:80vh ;
-    width: 50vw;
+    height:100vh ;
+    width: 70vw;
     display: flex;
 
 }
@@ -20,40 +23,68 @@
   
    background-color: #2874f0;
    color: white;
-   height:80vh ;
+   height:85vh ;
    width: 50vw;
    padding-top:3.5em ;
    padding-left: 2em;
 }
  h3{
- font-size: 25px;
+ font-size: 2rem;
 }
 .box2{
     padding-top:5em ;
     padding-left: 2em;
   /* background-color: rgb(74, 189, 189);   */
   /* margin: 20px 33px;  */
-  height:80vh ;
-    width: 50vw;
+  height:85vh ;
+    width: 80vw;
+    /* box-shadow:0px 5px rgb(182, 145, 145); */
 }
 .otp-btn{
   background-color: #fb641b;  
- padding: 0.5em 5.5em;
+ padding: 1em 10em;
   margin-left: 0.1em;
+
+ 
 color: white;
-font-size: medium;
+font-size: 1em;
 border: none;
-border-radius:2px ;
+border-radius:0.1em;
+}
+.otp-btn2{
+  background-color: #ffffff;  
+ padding: 1em 7.4em;
+  
+margin-top: 1em;
+
+color: #0062ff;
+font-size: 1em;
+border: none;
+border-radius:0.1em;
+box-shadow:0px 1px rgb(187, 184, 184);
+
 }
 .box2 input{
+  
 border:none;
 border-bottom: solid black 1px;
-width: 93%;
+width: 80%;
+
+}
+.box2 label{
+  color: gray;
+font-size: 1em;
+}
+.box2 p{
+  color: gray;
+  margin: 2.5em 0 0 0;
+  font-size: 0.8em;
+
 
 }
 .box2 input:hover {
 /* border:none; */
-border-bottom:2px solid  #2874f0;
+border-bottom:2px solid  #0062ff;
 /* background-color: green; */
 
 }
@@ -62,8 +93,25 @@ border-bottom:2px solid  #2874f0;
 /* border:none; */
 /* border-bottom:2px solid  #2874f0; */
 /* background-color: green; */
-font-size: 5px;
+
 
 }
 
 
+.acc-link {
+  margin:16em 0 0 3em; ;
+  
+}
+.acc-link a{
+  color:#0062ff;
+
+  text-decoration: none;
+  
+}
+.log-img{
+  margin: 13em 0px 0em 2em;
+}
+.otp-btn2 a{
+text-decoration: none;
+color: #0062ff;
+}
