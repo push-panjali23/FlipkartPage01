@@ -43,7 +43,7 @@
 .box1 {
     height: 90vh;
     width: 25vw;
-    border: 2px solid #2874f0;
+    border: 1.1em solid #2874f0;
     background-color: #2874f0;
     color: white;
     box-shadow: inset;
@@ -55,7 +55,7 @@
     background-color: #ff5800;
     color: white;
     padding: 0.8em 10em;
-    border-radius: 3px;
+    border-radius: 0.2em;
     border: none;
     margin-top: 1em;
 }
@@ -63,7 +63,7 @@
     background-color: #ff5800;
     color: white;
     padding: 0.7em 9.5em;
-    border-radius: 3px;
+    border-radius: 0.2em;
     border: none;
     margin-top: 1em;
 }
@@ -71,7 +71,6 @@
     background-color: white;
     color: blue;
     padding: 0.7em 7.8em;
-    border-radius: 3px;
     border: none;
     margin-top: 1em;
     box-shadow: gray 0.5px 1px 4px;
@@ -97,7 +96,7 @@
 
 label {
 
-    margin-top: 10px;
+    margin-top: 3em;
     font-size: small;
     color: #878787;
 }
