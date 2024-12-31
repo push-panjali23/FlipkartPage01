@@ -21,10 +21,10 @@
 .login-form label{
     font-size: larger;
 }
-.login-form label:hover{
+/* .login-form label:hover{
 
     font-size:small;
-}
+} */
 .contain {
 
     display: flex;
@@ -132,4 +132,8 @@ label {
 
 .box1 img {
     margin: 13em 0em 0em 1.5em;
+}
+ 
+@media screen {
+    
 }
